@@ -197,7 +197,8 @@ Copy it to config and paste your server name (to do so it is convenient to use t
 
 Dashboard has main cosmos-based node information and common system metrics. There is a description in it.
 
-![Dashboard screenshort](https://raw.githubusercontent.com/shurinov/mon_evmos/main/resource/01_mon_evmos_grafana_dashboard.png "Dashboard screenshort")
+![Dashboard screenshort01](https://raw.githubusercontent.com/shurinov/mon_evmos/main/resource/01_mon_evmos_grafana_dashboard.png "Dashboard screenshort01")
+![Dashboard screenshort02](https://raw.githubusercontent.com/shurinov/mon_evmos/main/resource/01_mon_evmos_grafana_dashboard.png "Dashboard screenshort02")
 
 ### Mon health
 Complex parameter can show problem concerning receiving metrics from node. Normal value is "OK"
