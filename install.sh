@@ -166,17 +166,17 @@ echo -e "Node operator address: $GREEN$COS_VALOPER$ST"
 
 repo="$HOME/mon_evmos"
 echo -e "\nClone monitoring project repo to: ${repo}"
-# if ! [ -d $repo ]
-# then
-#   echo "Clone repository"
-#   git clone https://github.com/shurinov/mon_evmos.git
-# else
-#   echo "Repository exist. Stash local changes and pull"
-#   cd $repo
-#   git stash
-#   git pull
-#   cd $HOME
-# fi
+if ! [ -d $repo ]
+then
+  echo "Clone repository"
+  git clone https://github.com/shurinov/mon_evmos.git
+else
+  echo "Repository exist. Stash local changes and pull"
+  cd $repo
+  git stash
+  git pull
+  cd $HOME
+fi
 
 echo -e "Create $repo/var.sh with node settings"
 echo "
