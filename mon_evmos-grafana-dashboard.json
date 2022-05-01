@@ -23,8 +23,8 @@
   "fiscalYearStartMonth": 0,
   "gnetId": 928,
   "graphTooltip": 0,
-  "id": 6,
-  "iteration": 1638903473145,
+  "id": 10,
+  "iteration": 1651395915622,
   "links": [
     {
       "asDropdown": false,
@@ -67,7 +67,7 @@
         "content": "# EVMOS Validators monitoring dashboard\nBased on influxDB + Telegarf\nProject on Github:  [https://github.com/shurinov/mon_evmos/](https://github.com/shurinov/mon_evmos/)\n\n",
         "mode": "markdown"
       },
-      "pluginVersion": "8.3.0",
+      "pluginVersion": "8.3.6",
       "type": "text"
     },
     {
@@ -148,7 +148,7 @@
         "text": {},
         "textMode": "auto"
       },
-      "pluginVersion": "8.3.0",
+      "pluginVersion": "8.3.6",
       "targets": [
         {
           "datasource": {
@@ -203,6 +203,7 @@
     },
     {
       "datasource": {
+        "type": "influxdb",
         "uid": "${datasource}"
       },
       "description": "Node catchup status.",
@@ -280,9 +281,13 @@
         "text": {},
         "textMode": "auto"
       },
-      "pluginVersion": "8.3.0",
+      "pluginVersion": "8.3.6",
       "targets": [
         {
+          "datasource": {
+            "type": "influxdb",
+            "uid": "${datasource}"
+          },
           "groupBy": [
             {
               "params": [
@@ -375,7 +380,7 @@
         "text": {},
         "textMode": "auto"
       },
-      "pluginVersion": "8.3.0",
+      "pluginVersion": "8.3.6",
       "targets": [
         {
           "datasource": {
@@ -430,6 +435,7 @@
     },
     {
       "datasource": {
+        "type": "influxdb",
         "uid": "${datasource}"
       },
       "description": "Time interval between latest block time and server's local time. A large (>15s) value of this parameter may indicate a loss of synchronization. ",
@@ -482,9 +488,13 @@
         "text": {},
         "textMode": "auto"
       },
-      "pluginVersion": "8.3.0",
+      "pluginVersion": "8.3.6",
       "targets": [
         {
+          "datasource": {
+            "type": "influxdb",
+            "uid": "${datasource}"
+          },
           "groupBy": [
             {
               "params": [
@@ -533,6 +543,7 @@
     },
     {
       "datasource": {
+        "type": "influxdb",
         "uid": "${datasource}"
       },
       "description": "Number of connected peers to node",
@@ -588,9 +599,13 @@
         "text": {},
         "textMode": "auto"
       },
-      "pluginVersion": "8.3.0",
+      "pluginVersion": "8.3.6",
       "targets": [
         {
+          "datasource": {
+            "type": "influxdb",
+            "uid": "${datasource}"
+          },
           "groupBy": [
             {
               "params": [
@@ -710,7 +725,7 @@
         "text": {},
         "textMode": "auto"
       },
-      "pluginVersion": "8.3.0",
+      "pluginVersion": "8.3.6",
       "targets": [
         {
           "datasource": {
@@ -830,7 +845,7 @@
         "text": {},
         "textMode": "auto"
       },
-      "pluginVersion": "8.3.0",
+      "pluginVersion": "8.3.6",
       "targets": [
         {
           "datasource": {
@@ -952,7 +967,7 @@
         "text": {},
         "textMode": "auto"
       },
-      "pluginVersion": "8.3.0",
+      "pluginVersion": "8.3.6",
       "targets": [
         {
           "datasource": {
@@ -1055,7 +1070,7 @@
         "text": {},
         "textMode": "auto"
       },
-      "pluginVersion": "8.3.0",
+      "pluginVersion": "8.3.6",
       "targets": [
         {
           "datasource": {
@@ -1119,7 +1134,6 @@
           "color": {
             "mode": "thresholds"
           },
-          "decimals": 9,
           "mappings": [],
           "thresholds": {
             "mode": "absolute",
@@ -1130,7 +1144,7 @@
               }
             ]
           },
-          "unit": "PHOTON"
+          "unit": "EVMOS"
         },
         "overrides": []
       },
@@ -1156,7 +1170,7 @@
         "text": {},
         "textMode": "auto"
       },
-      "pluginVersion": "8.3.0",
+      "pluginVersion": "8.3.6",
       "targets": [
         {
           "datasource": {
@@ -1263,7 +1277,7 @@
         "text": {},
         "textMode": "auto"
       },
-      "pluginVersion": "8.3.0",
+      "pluginVersion": "8.3.6",
       "targets": [
         {
           "datasource": {
@@ -1362,7 +1376,7 @@
         "text": {},
         "textMode": "auto"
       },
-      "pluginVersion": "8.3.0",
+      "pluginVersion": "8.3.6",
       "targets": [
         {
           "datasource": {
@@ -1417,6 +1431,7 @@
     },
     {
       "datasource": {
+        "type": "influxdb",
         "uid": "${datasource}"
       },
       "description": "Your node validator stake rank",
@@ -1460,9 +1475,13 @@
         "text": {},
         "textMode": "auto"
       },
-      "pluginVersion": "8.3.0",
+      "pluginVersion": "8.3.6",
       "targets": [
         {
+          "datasource": {
+            "type": "influxdb",
+            "uid": "${datasource}"
+          },
           "groupBy": [
             {
               "params": [
@@ -1573,7 +1592,7 @@
         "text": {},
         "textMode": "auto"
       },
-      "pluginVersion": "8.3.0",
+      "pluginVersion": "8.3.6",
       "targets": [
         {
           "datasource": {
@@ -1692,7 +1711,7 @@
         "showThresholdMarkers": true,
         "text": {}
       },
-      "pluginVersion": "8.3.0",
+      "pluginVersion": "8.3.6",
       "targets": [
         {
           "datasource": {
@@ -1825,7 +1844,7 @@
         "showThresholdMarkers": true,
         "text": {}
       },
-      "pluginVersion": "8.3.0",
+      "pluginVersion": "8.3.6",
       "targets": [
         {
           "datasource": {
@@ -1945,7 +1964,7 @@
         "showThresholdMarkers": true,
         "text": {}
       },
-      "pluginVersion": "8.3.0",
+      "pluginVersion": "8.3.6",
       "targets": [
         {
           "datasource": {
@@ -2071,7 +2090,7 @@
         "showThresholdMarkers": true,
         "text": {}
       },
-      "pluginVersion": "8.3.0",
+      "pluginVersion": "8.3.6",
       "targets": [
         {
           "datasource": {
@@ -2192,7 +2211,7 @@
         "text": {},
         "textMode": "auto"
       },
-      "pluginVersion": "8.3.0",
+      "pluginVersion": "8.3.6",
       "targets": [
         {
           "datasource": {
@@ -2320,7 +2339,7 @@
         "text": {},
         "textMode": "auto"
       },
-      "pluginVersion": "8.3.0",
+      "pluginVersion": "8.3.6",
       "targets": [
         {
           "datasource": {
@@ -3252,7 +3271,7 @@
               }
             ]
           },
-          "unit": "PHOTON"
+          "unit": "EVMOS"
         },
         "overrides": []
       },
@@ -3396,7 +3415,7 @@
         "alertThreshold": true
       },
       "percentage": false,
-      "pluginVersion": "8.3.0",
+      "pluginVersion": "8.3.6",
       "pointradius": 5,
       "points": false,
       "renderer": "flot",
@@ -3538,7 +3557,7 @@
         "alertThreshold": true
       },
       "percentage": false,
-      "pluginVersion": "8.3.0",
+      "pluginVersion": "8.3.6",
       "pointradius": 5,
       "points": false,
       "renderer": "flot",
@@ -3683,7 +3702,7 @@
         "alertThreshold": true
       },
       "percentage": false,
-      "pluginVersion": "8.3.0",
+      "pluginVersion": "8.3.6",
       "pointradius": 5,
       "points": false,
       "renderer": "flot",
@@ -3823,7 +3842,7 @@
         "alertThreshold": true
       },
       "percentage": false,
-      "pluginVersion": "8.3.0",
+      "pluginVersion": "8.3.6",
       "pointradius": 5,
       "points": false,
       "renderer": "flot",
@@ -3979,27 +3998,24 @@
     }
   ],
   "refresh": "30s",
-  "schemaVersion": 33,
+  "schemaVersion": 34,
   "style": "dark",
   "tags": [],
   "templating": {
     "list": [
       {
-        "allFormat": "glob",
         "current": {
-          "selected": true,
-          "text": "InfluxDB_evmos",
-          "value": "InfluxDB_evmos"
+          "selected": false,
+          "text": "InfluxDB-n75",
+          "value": "InfluxDB-n75"
         },
-        "datasource": "InfluxDB telegraf",
-        "hide": 1,
+        "hide": 0,
         "includeAll": false,
         "label": "",
         "multi": false,
         "name": "datasource",
         "options": [],
         "query": "influxdb",
-        "queryValue": "",
         "refresh": 1,
         "regex": "",
         "skipUrlSync": false,
@@ -4075,14 +4091,17 @@
       {
         "current": {
           "selected": true,
-          "text": "Node75",
-          "value": "Node75"
+          "text": "EVMOS-PRO-NODES",
+          "value": "EVMOS-PRO-NODES"
         },
         "datasource": {
           "type": "influxdb",
           "uid": "Wq-mQt27z"
         },
         "definition": "",
+        "error": {
+          "message": "Datasource Wq-mQt27z was not found"
+        },
         "hide": 0,
         "includeAll": false,
         "label": "Server",
@@ -4129,8 +4148,8 @@
     ]
   },
   "timezone": "browser",
-  "title": "EVMOS Monitoring2",
-  "uid": "ev43mC4Onk",
-  "version": 14,
+  "title": "EVMOS",
+  "uid": "evmos",
+  "version": 6,
   "weekStart": ""
 }
