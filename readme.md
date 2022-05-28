@@ -96,9 +96,9 @@ IMPORTANT: You sholud to run the script under the user where it is installed Evm
 
 Don't use **sudo** if EVMOS-user is not a **root** 
 ```
-wget https://raw.githubusercontent.com/shurinov/mon_evmos/main/mon_install.sh
-chmod +x mon_install.sh
-./mon_install.sh
+wget https://raw.githubusercontent.com/shurinov/mon_evmos/main/install.sh
+chmod +x install.sh
+./install.sh
 ```
 It will install telegraf agent, clone project repo and extract your node data as MONIKER, VALOPER ADDR, RPC PORT.
 You should answer some questions about your monitoring service from part **Monitoring server installation**
