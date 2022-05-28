@@ -14,7 +14,7 @@ It is possible to install the software on the node server instance. Hovewer, it 
 
 ## To use our free monitoring servise on [pro-nodes.com](http://www.pro-nodes.com/mon/d/evmos):
 
-just go to the section [**Monitoring server installation**](https://github.com/shurinov/mon_evmos#Monitoring-server-installation) and follow the installation process.
+just go to the section [**Installation on a node**](https://github.com/shurinov/mon_evmos#Installation-on-a-node) and follow the installation process.
 
 Advantages  of using our free service:
 * Our monitoring service is working on dedicated server (24/7 online)
