@@ -12,6 +12,27 @@ On monitoring server:
 
 It is possible to install the software on the node server instance. Hovewer, it is better to move it to standalone instance with opened web access to watch it from browser at any location.
 
+## To use our free monitoring servise on [pro-nodes.com](http://www.pro-nodes.com/mon/d/evmos):
+
+just go to the section [**Monitoring server installation**](https://github.com/shurinov/mon_evmos#Monitoring server installation) and follow the installation process.
+
+Advantages  of using our free service:
+* Our monitoring service is working on dedicated server (24/7 online)
+* No need to install database  (InfluxDB)
+* No need to install and configure  Grafana Dashboard
+* On Grafana dashboard you will find all necessary metrics of your node (we use this monitoring service by ourselves, so we've configured dashboard properly)
+
+Monitoring server parameters to connect PRO-NODES.com
+
+| Param            | Value                 | 
+| ---------------- |:---------------------:|
+| URL              | http://pro-nodes.com:8086 |
+| InfluxDB Details |                       |
+| database         | evmosmetricsdb        |
+| username         | metrics               |
+| password         | password              |
+
+
 ## The following steps will guide you through the setup process:
 
 ### Monitoring server installation 
